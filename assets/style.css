@@ -5,6 +5,17 @@ h1 {
   color: #20b2aa;
 }
 
+p {
+  line-height: 1.5;
+  margin-left: 20px;
+}
+
+/*styling for footer*/
+footer {
+  height: 100px;
+  background: #606060;
+}
+
 /* nav bar styling*/
 .nav-link:hover {
   color: black;
@@ -42,14 +53,10 @@ h1 {
 
 .about-section {
   height: 500px;
-  margin-top: 50px;
+  margin-top: 80px;
   margin-bottom: 50px;
   margin-left: 40px;
   background-color: white;
-}
-
-.about-me-col {
-  margin-top: 80px;
 }
 
 .about-me-heading {
@@ -59,4 +66,10 @@ h1 {
 
 .about-me-photo {
   margin-left: 20px;
+  margin-right: 20px;
+  float: left;
+}
+
+.about-me-text {
+  margin-bottom: 20px;
 }
