@@ -13,7 +13,6 @@ h1 {
 
 p {
   line-height: 1.5;
-  margin-left: 20px;
 }
 
 /*styling for footer*/
@@ -66,24 +65,26 @@ footer {
   margin-bottom: 50px;
   margin-left: 40px;
   background-color: white;
+  padding: 5%;
 }
 
 .about-me-heading {
-  margin: 20px;
   border-bottom: 1px solid #c0c0c0;
 }
 
 .about-me-photo {
-  margin-left: 20px;
   margin-right: 20px;
   float: left;
 }
-
-.about-me-text {
-  margin-bottom: 20px;
+.clearfix::after {
+  clear: both;
 }
 
-/*media queries*/
-@media screen and (max-with:400px){
-    .about-section: width: 100%;
+/*media query for screens 400px and smaller*/
+@media screen and (max-with: 400px) {
+  .about-section {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+  }
 }
