@@ -1,3 +1,11 @@
+/*styling for headings*/
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 800;
+  color: #20b2aa;
+}
+
+/* nav bar styling*/
 .nav-link:hover {
   color: black;
 }
@@ -23,4 +31,32 @@
 
 .navbar-light .navbar-brand:hover {
   color: white;
+}
+
+/* about section styling*/
+.container-fluid {
+  background-color: #c0c0c0;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.about-section {
+  height: 500px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 40px;
+  background-color: white;
+}
+
+.about-me-col {
+  margin-top: 80px;
+}
+
+.about-me-heading {
+  margin: 20px;
+  border-bottom: 1px solid #c0c0c0;
+}
+
+.about-me-photo {
+  margin-left: 20px;
 }
