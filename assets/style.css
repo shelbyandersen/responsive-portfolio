@@ -79,6 +79,33 @@ footer {
   clear: both;
 }
 
+/*contact me styling*/
+.contact-section {
+  margin-top: 80px;
+  margin-bottom: 50px;
+  margin-left: 40px;
+  background-color: white;
+  padding: 5%;
+}
+
+.contact-me-heading {
+  border-bottom: 1px solid #c0c0c0;
+}
+
+.form-group {
+  width: 80%;
+}
+
+.btn-primary {
+  background-color: #20b2aa;
+  border-color: #20b2aa;
+  border-radius: 0;
+}
+
+.btn-lg {
+  font-size: 1rem;
+}
+
 /*media query for screens 400px and smaller*/
 @media only screen and (max-width: 520px) {
   .col-8 {
@@ -87,6 +114,10 @@ footer {
   }
 
   .about-section {
+    margin-left: 8px;
+  }
+
+  .contact-section {
     margin-left: 8px;
   }
 }
