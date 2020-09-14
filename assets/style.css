@@ -21,8 +21,7 @@ footer {
   height: 50px;
   border-top: 4px solid #20b2aa;
   width: 100%;
-  position: absolute;
-  bottom: 0;
+  position: fixed;
 }
 
 /* nav bar styling*/
@@ -81,10 +80,13 @@ footer {
 }
 
 /*media query for screens 400px and smaller*/
-@media screen and (max-with: 400px) {
+@media only screen and (max-width: 520px) {
+  .col-8 {
+    flex: 0 0 100%;
+    max-width: 96%;
+  }
+
   .about-section {
-    margin-left: 20px;
-    margin-right: 20px;
-    width: 100%;
+    margin-left: 8px;
   }
 }
