@@ -46,7 +46,7 @@ p {
 
 /* main content styling*/
 .container-fluid {
-  background-color: #c0c0c0;
+  background-image: url("background-image.png");
   margin: 0 auto;
   width: 100%;
 }
