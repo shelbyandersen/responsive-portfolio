@@ -4,24 +4,16 @@ body {
   height: 100%;
 }
 
-/*styling for headings*/
+/*styling for headings and paragraph*/
 h1 {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 800;
   color: #20b2aa;
+  padding-bottom: 20px;
 }
 
 p {
   line-height: 1.5;
-}
-
-/*styling for footer*/
-footer {
-  background: #484848;
-  height: 50px;
-  border-top: 4px solid #20b2aa;
-  width: 100%;
-  position: fixed;
 }
 
 /* nav bar styling*/
@@ -52,14 +44,16 @@ footer {
   color: white;
 }
 
-/* about  styling*/
+/* main content styling*/
 .container-fluid {
   background-color: #c0c0c0;
   margin: 0 auto;
   width: 100%;
 }
 
-.about-section {
+.about-section,
+.contact-section,
+.portfolio-section {
   margin-top: 80px;
   margin-bottom: 50px;
   margin-left: 40px;
@@ -67,10 +61,14 @@ footer {
   padding: 5%;
 }
 
-.about-me-heading {
+.about-me-heading,
+.contact-me-heading,
+.portfolio-heading {
   border-bottom: 1px solid #c0c0c0;
+  margin-bottom: 20px;
 }
 
+/*about me styling*/
 .about-me-photo {
   margin-right: 20px;
   float: left;
@@ -80,18 +78,6 @@ footer {
 }
 
 /*contact me styling*/
-.contact-section {
-  margin-top: 80px;
-  margin-bottom: 50px;
-  margin-left: 40px;
-  background-color: white;
-  padding: 5%;
-}
-
-.contact-me-heading {
-  border-bottom: 1px solid #c0c0c0;
-}
-
 .form-group {
   width: 80%;
 }
@@ -107,26 +93,9 @@ footer {
 }
 
 /*portfolio styling*/
-
-.portfolio-heading {
-  border-bottom: 1px solid #c0c0c0;
-  margin-bottom: 20px;
-}
-.portfolio-section {
-  margin-top: 80px;
-  margin-bottom: 50px;
-  margin-left: 40px;
-  background-color: white;
-  padding: 5%;
-}
-
 .img-row {
   background-color: white;
   width: 80%;
-}
-
-.portofolio-heading {
-  border-bottom: 1px solid #c0c0c0;
 }
 
 .img-placeholder {
@@ -139,6 +108,14 @@ footer {
   margin-right: 5px;
 }
 
+/*styling for footer*/
+footer {
+  background: #484848;
+  height: 50px;
+  border-top: 4px solid #20b2aa;
+  width: 100%;
+}
+
 /*media query for screens 400px and smaller*/
 @media only screen and (max-width: 520px) {
   .col-8 {
@@ -146,14 +123,8 @@ footer {
     max-width: 96%;
   }
 
-  .about-section {
-    margin-left: 8px;
-  }
-
-  .contact-section {
-    margin-left: 8px;
-  }
-
+  .about-section,
+  .contact-section,
   .portfolio-section {
     margin-left: 8px;
   }
