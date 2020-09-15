@@ -2,6 +2,7 @@
 html,
 body {
   height: 100%;
+  background-image: url("background-image.png");
 }
 
 /*styling for headings and paragraph*/
@@ -46,9 +47,9 @@ p {
 
 /* main content styling*/
 .container-fluid {
-  background-image: url("background-image.png");
   margin: 0 auto;
   width: 100%;
+  margin-bottom: 50px;
 }
 
 .about-section,
@@ -114,6 +115,8 @@ footer {
   height: 50px;
   border-top: 4px solid #20b2aa;
   width: 100%;
+  position: fixed;
+  bottom: 0;
 }
 
 /*media query for screens 400px and smaller*/
