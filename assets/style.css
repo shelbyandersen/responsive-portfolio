@@ -106,6 +106,29 @@ footer {
   font-size: 1rem;
 }
 
+/*portfolio styling*/
+.portfolio-section {
+  margin-top: 80px;
+  margin-bottom: 50px;
+  margin-left: 40px;
+  background-color: white;
+  padding: 5%;
+}
+
+.img-row {
+  background-color: white;
+  width: 80%;
+}
+
+.portofolio-heading {
+  border-bottom: 1px solid #c0c0c0;
+}
+
+.img {
+  width: 350px;
+  height: 350px;
+}
+
 /*media query for screens 400px and smaller*/
 @media only screen and (max-width: 520px) {
   .col-8 {
@@ -118,6 +141,10 @@ footer {
   }
 
   .contact-section {
+    margin-left: 8px;
+  }
+
+  .portfolio-section {
     margin-left: 8px;
   }
 }
