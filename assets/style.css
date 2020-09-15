@@ -107,6 +107,11 @@ footer {
 }
 
 /*portfolio styling*/
+
+.portfolio-heading {
+  border-bottom: 1px solid #c0c0c0;
+  margin-bottom: 20px;
+}
 .portfolio-section {
   margin-top: 80px;
   margin-bottom: 50px;
@@ -124,9 +129,14 @@ footer {
   border-bottom: 1px solid #c0c0c0;
 }
 
-.img {
-  width: 350px;
-  height: 350px;
+.img-placeholder {
+  float: left;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+.img-thumbnail {
+  margin-right: 5px;
 }
 
 /*media query for screens 400px and smaller*/
@@ -146,5 +156,15 @@ footer {
 
   .portfolio-section {
     margin-left: 8px;
+  }
+
+  .img-placeholder {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 10px;
+  }
+
+  .form-group {
+    width: 100%;
   }
 }
